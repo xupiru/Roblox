@@ -190,7 +190,7 @@ local function iniciarTrocas(maxTentativas)
             else
                 print("⛔ Quirk '" .. tostring(atual) .. "' não permitida. Tentativa " .. i)
                 pressionarBotaoTrocar()
-                task.wait(1)
+                task.wait(0.3)
             end
         end
     end)
